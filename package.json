@@ -1,0 +1,25 @@
+{
+  "name": "clova-ext-sound",
+  "version": "1.0.0",
+  "description": "'빗 소리'라는 Clova extension의 REST API 서버 소스 코드입니다. '빗 소리' 익스텐션이 어떻게 작동하는지 보시려면, Clova 앱이나 Clova 스피커(WAVE, Friens)에서 '빗 소리 시작해줘'  또는 '빗소리한테 2번 반복해달라고 해줘'라고 해보시길 바랍니다. 해당 익스텐션을 실행하면 빗소리 (ASMR)을 1회 또는 원하는 횟수만큼 반복해서 재생해줍니다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect": "^3.6.6",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "firebase": "^4.13.1",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "onoff": "^3.0.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
